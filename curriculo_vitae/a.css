@@ -1,0 +1,29 @@
+div{
+    width: 320px;
+    background-color: #03609e;
+    margin: 40px 40px;
+    color: #fff;
+}
+.seg{
+    width: 370px;
+    background-color: #fff;
+    margin: 40px -40px;
+    color: #000;
+    font-size:17px;
+}
+
+section{
+    display: flex;
+}
+h3{
+    color: #000;
+}
+body{
+    background: black;
+    margin: 0px;
+    padding: auto;
+}
+.ima{
+    width: 200px;
+    height: 200px;
+}
