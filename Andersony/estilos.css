@@ -1,0 +1,174 @@
+*{
+	font-size: arial;
+	box-sizing: border-box;
+}
+.contenedor{
+	width: 1200px;
+	margin: auto;
+}
+
+/*banner*/
+.Banner{
+	background-image: url(image/fondogucci.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 180px 30px;
+
+	display: flex;
+	justify-content: center;
+
+}
+.TextoBanner{
+	background-color: rgba(181, 182, 182, 0.7);
+	color:black;
+	text-align: center;
+	width: 600px;
+    font-weight: bold;
+    
+}
+/*header*/
+header{
+	background-color: black;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.menu{
+	list-style: none;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #A68F97;
+	padding: 5px 15px;
+	
+}
+.menu li a:hover{
+	color: #ac4c45;
+}
+.boton a{
+    text-decoration: none;
+	background-color: white;
+    color: black;
+	padding: 5px 15px;
+	
+}
+.boton a:hover{
+	background-color:#bb301e ;
+}
+
+
+/*seccionServios*/
+.seccionServicios{
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	
+
+	
+	
+}
+/*itemServicios0*/
+
+.itemServicios0{
+	background-color:#4B4952 ;
+	width: 20%;
+	list-style: none;
+	
+	
+		
+
+}
+ .menu1 {
+	
+	list-style: none;
+	margin-top: 150px;
+	
+}
+
+
+.itemServicios0 .menu1 li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	list-style: none;
+	margin: 5px;
+			
+}
+.itemServicios0 li a:hover{
+	color:white;
+}
+
+
+/*itemServicios1*/
+
+.itemServicios1{
+	width: 60%;
+	text-align: center;
+	background-color: black;
+    color:white;
+	
+
+}
+.itemCatalogos{
+	
+	width: 40%;
+}
+.itemCatalogos p{
+	color: #591C21;
+	font-weight: bold;
+}
+.itemTragos1 p{
+	color: #591C21;
+	font-weight: bold;
+
+}
+.itemCatalogos1{
+	
+	width: 40%;
+}
+
+/*ItemServicios2*/
+
+.itemServicios2{
+	background-color:#1F2024;
+	width: 20%;
+	
+
+}
+.itemServicios2 h3{
+	margin-top: 120px;
+    color: aliceblue;
+}
+
+
+.itemServicios2 iframe{
+	margin-top: 40px;
+	width: 90%;
+}
+
+.Catalogos{
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	
+}
+
+/*footer*/
+.barra{
+	text-align: center;
+	background-color: rgb(12, 11, 11);
+	padding: 20px;
+    color: white;
+}
